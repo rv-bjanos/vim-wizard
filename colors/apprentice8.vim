@@ -3,7 +3,7 @@
 " Author:       Romain Lafourcade <romainlafourcade@gmail.com>
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat 23 Feb 18:46:12 2019
+" Last Updated: Sat 23 Feb 19:49:25 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < (get(g:, 'apprentice8_use16', &t_Co < 256) ? 16 : 256))
@@ -78,11 +78,11 @@ if !get(g:, 'apprentice8_use16', &t_Co < 256)
   hi DiffText ctermfg=172 ctermbg=235 guifg=#d78700 guibg=#262626 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
   hi IncSearch ctermfg=234 ctermbg=230 guifg=#1c1c1c guibg=#ffffdf guisp=NONE cterm=NONE,bold gui=NONE,bold
   hi Search ctermfg=238 ctermbg=230 guifg=#444444 guibg=#ffffdf guisp=NONE cterm=NONE gui=NONE
-  hi Directory ctermfg=73 ctermbg=NONE guifg=#5fafaf guibg=NONE guisp=NONE cterm=NONE gui=NONE
-  hi SpellBad ctermfg=131 ctermbg=NONE guifg=#af5f5f guibg=NONE guisp=#af5f5f cterm=NONE,undercurl gui=NONE,undercurl
-  hi SpellCap ctermfg=73 ctermbg=NONE guifg=#5fafaf guibg=NONE guisp=#5fafaf cterm=NONE,undercurl gui=NONE,undercurl
-  hi SpellLocal ctermfg=65 ctermbg=NONE guifg=#5f875f guibg=NONE guisp=#5f875f cterm=NONE,undercurl gui=NONE,undercurl
-  hi SpellRare ctermfg=172 ctermbg=NONE guifg=#d78700 guibg=NONE guisp=#d78700 cterm=NONE,undercurl gui=NONE,undercurl
+  hi Directory ctermfg=66 ctermbg=NONE guifg=#5f8787 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+  hi SpellBad ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#af5f5f cterm=NONE,undercurl gui=NONE,undercurl
+  hi SpellCap ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#5fafaf cterm=NONE,undercurl gui=NONE,undercurl
+  hi SpellLocal ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#5f875f cterm=NONE,undercurl gui=NONE,undercurl
+  hi SpellRare ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#d78700 cterm=NONE,undercurl gui=NONE,undercurl
   hi ColorColumn ctermfg=NONE ctermbg=234 guifg=NONE guibg=#1c1c1c guisp=NONE cterm=NONE gui=NONE
   let links = [
         \ ['Boolean', 'Constant'],
@@ -196,11 +196,11 @@ hi DiffDelete ctermfg=1 ctermbg=Black guifg=#af5f5f guibg=#262626 guisp=NONE cte
 hi DiffText ctermfg=9 ctermbg=Black guifg=#d78700 guibg=#262626 guisp=NONE cterm=NONE,reverse gui=NONE,reverse
 hi IncSearch ctermfg=0 ctermbg=11 guifg=#1c1c1c guibg=#ffffdf guisp=NONE cterm=NONE,bold gui=NONE,bold
 hi Search ctermfg=8 ctermbg=11 guifg=#444444 guibg=#ffffdf guisp=NONE cterm=NONE gui=NONE
-hi Directory ctermfg=14 ctermbg=NONE guifg=#5fafaf guibg=NONE guisp=NONE cterm=NONE gui=NONE
-hi SpellBad ctermfg=1 ctermbg=NONE guifg=#af5f5f guibg=NONE guisp=#af5f5f cterm=NONE,undercurl gui=NONE,undercurl
-hi SpellCap ctermfg=14 ctermbg=NONE guifg=#5fafaf guibg=NONE guisp=#5fafaf cterm=NONE,undercurl gui=NONE,undercurl
-hi SpellLocal ctermfg=2 ctermbg=NONE guifg=#5f875f guibg=NONE guisp=#5f875f cterm=NONE,undercurl gui=NONE,undercurl
-hi SpellRare ctermfg=9 ctermbg=NONE guifg=#d78700 guibg=NONE guisp=#d78700 cterm=NONE,undercurl gui=NONE,undercurl
+hi Directory ctermfg=6 ctermbg=NONE guifg=#5f8787 guibg=NONE guisp=NONE cterm=NONE gui=NONE
+hi SpellBad ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#af5f5f cterm=NONE,undercurl gui=NONE,undercurl
+hi SpellCap ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#5fafaf cterm=NONE,undercurl gui=NONE,undercurl
+hi SpellLocal ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#5f875f cterm=NONE,undercurl gui=NONE,undercurl
+hi SpellRare ctermfg=NONE ctermbg=NONE guifg=NONE guibg=NONE guisp=#d78700 cterm=NONE,undercurl gui=NONE,undercurl
 hi ColorColumn ctermfg=NONE ctermbg=0 guifg=NONE guibg=#1c1c1c guisp=NONE cterm=NONE gui=NONE
 let links = [
       \ ['Boolean', 'Constant'],
@@ -333,9 +333,9 @@ finish
 " DiffText         orange       darker_grey reverse
 " IncSearch        almost_black yellow      bold
 " Search           grey         yellow
-" Directory        light_aqua   none
-" SpellBad         red          none        undercurl guisp=red
-" SpellCap         light_aqua   none        undercurl guisp=light_aqua
-" SpellLocal       green        none        undercurl guisp=green
-" SpellRare        orange       none        undercurl guisp=orange
+" Directory        aqua         none
+" SpellBad         none         none        undercurl guisp=red
+" SpellCap         none         none        undercurl guisp=light_aqua
+" SpellLocal       none         none        undercurl guisp=green
+" SpellRare        none         none        undercurl guisp=orange
 " ColorColumn      none         almost_black
