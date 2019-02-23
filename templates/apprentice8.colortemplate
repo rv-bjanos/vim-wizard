@@ -67,7 +67,7 @@ PmenuSel         white        grey
 PmenuThumb       none         medium_grey
 
 ErrorMsg         darker_grey  red
-ModeMsg          darker_grey  light_green
+ModeMsg          light_green  none        bold
 MoreMsg          aqua         none
 Question         light_green  none
 WarningMsg       red          none
