@@ -110,10 +110,10 @@ Search           grey         yellow
 
 Directory        aqua         none
 
-SpellBad         red          none        undercurl guisp=red
-SpellCap         light_aqua   none        undercurl guisp=light_aqua
-SpellLocal       green        none        undercurl guisp=green
-SpellRare        orange       none        undercurl guisp=orange
+SpellBad         none         none        undercurl guisp=red
+SpellCap         none         none        undercurl guisp=light_aqua
+SpellLocal       none         none        undercurl guisp=green
+SpellRare        none         none        undercurl guisp=orange
 
 ColorColumn      none         almost_black
 
