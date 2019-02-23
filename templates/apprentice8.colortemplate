@@ -61,10 +61,10 @@ Underlined       aqua         none        underline
 
 NonText          medium_grey  none
 
-Pmenu            lighter_grey grey
-PmenuSbar        none         medium_grey
-PmenuSel         darker_grey  aqua
-PmenuThumb       aqua         aqua
+Pmenu            lighter_grey dark_grey
+PmenuSbar        almost_black almost_black
+PmenuSel         white        grey
+PmenuThumb       none         medium_grey
 
 ErrorMsg         darker_grey  red
 ModeMsg          darker_grey  light_green
