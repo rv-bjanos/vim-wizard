@@ -105,8 +105,8 @@ DiffChange       light_purple darker_grey reverse
 DiffDelete       red          darker_grey reverse
 DiffText         orange       darker_grey reverse
 
-IncSearch        darker_grey  red
-Search           darker_grey  yellow
+IncSearch        almost_black yellow      bold
+Search           grey         yellow
 
 Directory        light_aqua   none
 
