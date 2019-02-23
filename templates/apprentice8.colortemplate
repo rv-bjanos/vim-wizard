@@ -108,7 +108,7 @@ DiffText         orange       darker_grey reverse
 IncSearch        almost_black yellow      bold
 Search           grey         yellow
 
-Directory        light_aqua   none
+Directory        aqua         none
 
 SpellBad         red          none        undercurl guisp=red
 SpellCap         light_aqua   none        undercurl guisp=light_aqua
