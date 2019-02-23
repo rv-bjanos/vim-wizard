@@ -39,7 +39,7 @@ Color: yellow       #ffffdf 230 11
 
 Normal           lighter_grey darker_grey
 Terminal         lighter_grey darker_grey
-LineNr           light_grey   almost_black
+LineNr           medium_grey  almost_black
 FoldColumn       light_grey   almost_black
 Folded           light_grey   almost_black
 MatchParen       yellow       almost_black
