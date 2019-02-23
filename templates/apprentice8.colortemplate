@@ -72,9 +72,9 @@ MoreMsg          aqua         none
 Question         light_green  none
 WarningMsg       red          none
 
-TabLine          ocre         grey
+TabLine          almost_black grey
 TabLineFill      grey         grey
-TabLineSel       darker_grey  ocre
+TabLineSel       almost_black medium_grey
 
 Cursor           none         light_grey
 CursorColumn     none         dark_grey
@@ -84,11 +84,11 @@ CursorLine       none         dark_grey
 helpLeadBlank    none         none
 helpNormal       none         none
 
-StatusLine       darker_grey  ocre
-StatusLineNC     ocre         grey
+StatusLine       almost_black medium_grey bold
+StatusLineNC     almost_black grey
 
-StatusLineTerm   darker_grey  ocre
-StatusLineTermNC ocre         grey
+StatusLineTerm   almost_black medium_grey bold
+StatusLineTermNC almost_black grey
 
 Visual           darker_grey  blue
 VisualNOS        none         none        underline
