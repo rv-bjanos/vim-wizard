@@ -48,14 +48,14 @@ SignColumn       light_grey   almost_black
 Comment          medium_grey  none
 Conceal          lighter_grey none
 Constant         orange       none
-Error            red          none        reverse
 Identifier       blue         none
+Error            none         red
 Ignore           none         none
 PreProc          aqua         none
 Special          green        none
 Statement        light_blue   none
 String           light_green  none
-Todo             none         none        reverse
+Todo             yellow       almost_black
 Type             light_purple none
 Underlined       aqua         none        underline
 
@@ -90,7 +90,7 @@ StatusLineNC     ocre         grey
 StatusLineTerm   darker_grey  ocre
 StatusLineTermNC ocre         grey
 
-Visual           light_blue   darker_grey reverse
+Visual           darker_grey  blue
 VisualNOS        none         none        underline
 
 VertSplit        grey         grey
