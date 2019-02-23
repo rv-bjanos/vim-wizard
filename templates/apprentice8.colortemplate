@@ -16,8 +16,8 @@ Color: almost_black #1c1c1c 234 0
 Color: darker_grey  #262626 235
 Color: dark_grey    #303030 236 8
 Color: grey         #444444 238 8
-Color: medium_grey  #585858 240 8
-Color: light_grey   #6c6c6c 242 7
+Color: medium_grey  #6c6c6c 242 8
+Color: light_grey   #808080 244 7
 Color: lighter_grey #bcbcbc 250
 Color: white        #ffffff 231 15
 Color: purple       #5f5f87 60  5
