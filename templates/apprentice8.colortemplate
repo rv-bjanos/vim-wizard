@@ -48,12 +48,12 @@ SignColumn       light_grey   almost_black
 Comment          medium_grey  none
 Conceal          lighter_grey none
 Constant         orange       none
-Identifier       blue         none
 Error            none         red
+Identifier       light_blue   none
 Ignore           none         none
 PreProc          aqua         none
 Special          green        none
-Statement        light_blue   none
+Statement        blue         none
 String           light_green  none
 Todo             yellow       almost_black
 Type             light_purple none
