@@ -3,7 +3,7 @@
 " Author:       Romain Lafourcade <romainlafourcade@gmail.com>
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Sat 23 Feb 19:49:25 2019
+" Last Updated: Mon 25 Feb 07:26:19 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < (get(g:, 'apprentice8_use16', &t_Co < 256) ? 16 : 256))
@@ -132,9 +132,9 @@ if !get(g:, 'apprentice8_use16', &t_Co < 256)
         \ ['xmlTagName', 'Statement'],
         \ ]
 
-  augroup Apprentice
+  augroup Apprentice8
     autocmd!
-    autocmd ColorScheme * if expand("<amatch>") == "apprentice" | for link in links | execute 'hi link' link[0] link[1] | endfor | else | for link in links | execute 'hi link' link[0] 'NONE' | endfor | endif
+    autocmd ColorScheme * if expand("<amatch>") == "apprentice8" | for link in links | execute 'hi link' link[0] link[1] | endfor | else | for link in links | execute 'hi link' link[0] 'NONE' | endfor | endif
   augroup END
   finish
 endif
@@ -250,9 +250,9 @@ let links = [
       \ ['xmlTagName', 'Statement'],
       \ ]
 
-augroup Apprentice
+augroup Apprentice8
   autocmd!
-  autocmd ColorScheme * if expand("<amatch>") == "apprentice" | for link in links | execute 'hi link' link[0] link[1] | endfor | else | for link in links | execute 'hi link' link[0] 'NONE' | endfor | endif
+  autocmd ColorScheme * if expand("<amatch>") == "apprentice8" | for link in links | execute 'hi link' link[0] link[1] | endfor | else | for link in links | execute 'hi link' link[0] 'NONE' | endfor | endif
 augroup END
 finish
 
