@@ -170,8 +170,8 @@ let links = [
             \ ['xmlTagName', 'Statement'],
             \ ]
 
-augroup Apprentice
+augroup Apprentice8
     autocmd!
-    autocmd ColorScheme * if expand("<amatch>") == "apprentice" | for link in links | execute 'hi link' link[0] link[1] | endfor | else | for link in links | execute 'hi link' link[0] 'NONE' | endfor | endif
+    autocmd ColorScheme * if expand("<amatch>") == "apprentice8" | for link in links | execute 'hi link' link[0] link[1] | endfor | else | for link in links | execute 'hi link' link[0] 'NONE' | endfor | endif
 augroup END
 endverbatim
