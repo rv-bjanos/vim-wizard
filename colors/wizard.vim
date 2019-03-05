@@ -3,7 +3,7 @@
 " Author:       Aramis Razzaghipour <aramisnoah@gmail.com>
 " Maintainer:   Aramis Razzaghipour <aramisnoah@gmail.com>
 " License:      Vim License (see `:help license`)
-" Last Updated: Tue  5 Mar 20:15:43 2019
+" Last Updated: Tue  5 Mar 20:40:40 2019
 
 if !(has('termguicolors') && &termguicolors) && !has('gui_running')
       \ && (!exists('&t_Co') || &t_Co < (get(g:, 'wizard_use16', &t_Co < 256) ? 16 : 256))
