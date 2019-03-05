@@ -1,9 +1,9 @@
 # vim: set ft=colortemplate cursorline cursorcolumn nomodeline:
-Full name:       Apprentice8
-Short name:      apprentice8
-Author:          Romain Lafourcade <romainlafourcade@gmail.com>
+Full name:       Wizard
+Short name:      wizard
+Author:          Aramis Razzaghipour <aramisnoah@gmail.com>
 Maintainer:      Aramis Razzaghipour <aramisnoah@gmail.com>
-Description:     A conversion of Apprentice by Romain Lafourcade <romainlafourcade@gmail.com> to Colortemplate (with a few small changes)
+Description:     Apprentice by Romain Lafourcade made to look more similar to its predecessor
 
 Terminal Colors: 256,16
 Background:      dark
